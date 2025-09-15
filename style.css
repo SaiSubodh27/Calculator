@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* border: 1px solid black; */
+
+}
+.container1{
+    display: inline;
+    border: 1px solid black;
+    padding: 23px;
+    text-align: center;
+    /* position: relative; */
+    background-color: rgb(214, 231, 246);
+}
+button{
+    margin: 4px;
+    padding: 15px;
+    width: 60px;
+    /* display: contents; */
+    box-sizing: border-box;
+    border: none;
+    box-shadow:-1px -1px 1px  black;
+    background-color:aliceblue;
+    border-radius: 50%;
+    cursor: pointer;
+   
+    
+  
+}
+button:hover{
+     color: white;
+     background-color: black;
+     /* transition: transform; */
+  
+    
+}
+input{
+    /* position: absolute */
+   width: 95%;
+   height: 40px;
+  margin-bottom: 20px;
+}
+input[type ="text"]{
+    text-align: end;
+    font-size: 20px;
+}
